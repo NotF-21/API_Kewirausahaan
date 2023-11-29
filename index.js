@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://87d7-139-255-65-92.ngrok-free.app",
     optionsSuccessStatus: 200,
   })
 );
